@@ -1,24 +1,15 @@
 {
   "name": "yuzu",
   "version": "0.1.0",
-  "description": "YuZu — Automated Database Schema Documenter",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage"
+    "lint": "eslint"
   },
   "dependencies": {
-    "@xyflow/react": "^12.10.1",
-    "html-to-image": "^1.11.13",
-    "jose": "^6.1.3",
-    "jspdf": "^4.2.0",
     "next": "16.1.6",
-    "pg": "^8.19.0",
     "react": "19.2.3",
     "react-dom": "19.2.3"
   },
